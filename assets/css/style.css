@@ -1,0 +1,108 @@
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("../fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    	url("../fonts/PlayfairDisplay-BlackItalic.woff") format("woff"),
+    	url("../fonts/PlayfairDisplay-BlackItalic.otf") format("opentype");
+    
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    	url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    	url("../fonts/PlayfairDisplay-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"Roboto";
+
+    src:url("../fonts/Roboto-Light.woff2") format("woff2"),
+    	url("../fonts/Roboto-Light.woff") format("woff"),
+    	url("../fonts/Roboto-Light.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family:"Roboto";
+
+    src:url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    	url("../fonts/Roboto-Regular.woff") format("woff"),
+    	url("../fonts/Roboto-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}  
+
+
+
+.navbar_barbershop{
+	background-color: #121619;
+	color: #FFF;
+	margin-bottom: 0;
+}
+.navbar_barbershop img {
+	max-width: 100px;
+
+}
+
+
+
+.header_barbershop {
+	background-image: url(../img/post-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-position: right bottom;
+    }
+
+.header_barbershop h1{
+	color: #FFFFFF;
+	font-family:"Playfair Display";
+	font-style: italic;
+    font-weight: 700;
+    font-size: 4em;
+
+}
+
+.barbershop_entry {
+	padding: 3%;
+    color: #6C6E70;
+}
+
+
+
+.icon {
+	text-align: center;
+	background-color: #6C6E70;
+	font-size: 1.5em;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+    margin: 1rem
+   
+}
+
+}
+.autor_barbershop img {
+	width: 100px;
+	height: 100px;
+    margin: 2%;
+}
+
+.footer_barbershop {
+	background-color: #121619;
+}
+.footer_barbershop img {
+	max-width: 200px;
+}
