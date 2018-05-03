@@ -1,3 +1,5 @@
+/*Fuentes*/
+
 @font-face {
     font-family:"Playfair Display";
 
@@ -43,7 +45,7 @@
 }  
 
 
-
+/*Navbar*/ 
 .navbar_barbershop{
 	background-color: #121619;
 	color: #FFF;
@@ -55,6 +57,7 @@
 }
 
 
+/*Header*/
 
 .header_barbershop {
 	background-image: url(../img/post-image.jpg);
@@ -64,9 +67,9 @@
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-position: right bottom;
-    }
+}
 
-.header_barbershop h1{
+ h1{
 	color: #FFFFFF;
 	font-family:"Playfair Display";
 	font-style: italic;
@@ -75,11 +78,13 @@
 
 }
 
+/*Sección barber_entre*/
+
 .barbershop_entry {
 	padding: 3%;
     color: #6C6E70;
+    border-bottom: 1px solid gray;
 }
-
 
 
 .icon {
@@ -93,11 +98,56 @@
    
 }
 
+.icon_border {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #6c6e70;
+    font-size: 1.5em;
+    border-color: #6C6E70;
+    padding: 1rem;
+    
 }
+
+/*autor*/ 
+.autor_barbershop {
+    padding: 2%;
+    color: #6C6E70;
+    
+}
+
 .autor_barbershop img {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
     margin: 2%;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.autor_barbershop_texto {
+    padding-top: 5%;
+}
+
+.autor_barbershop h3 {
+    font-family: "Playfair Display";
+    color: #121619;
+    font-style: italic;
+
+}
+
+
+
+/*jumbotron*/
+
+.jumbotron {
+    margin:0;
+}
+
+h2 {
+    color: #6C6E70;
+    font-family: "Roboto";
+    font-size: 2em;
+
+
 }
 
 .footer_barbershop {
