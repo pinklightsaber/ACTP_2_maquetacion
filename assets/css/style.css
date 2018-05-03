@@ -44,12 +44,35 @@
     font-weight: 400;
 }  
 
+/*Mobile*/
+
+@media only screen and (max-width : 767px) {
+  
+
+.autor_barbershop_texto {
+    padding-top: 5%;
+    text-align: center;
+}
+.jumbotron h2 {
+    color: #6C6E70;
+    visibility: hidden;
+
+}
+.jumbotron i {
+    visibility: visible;
+}
+
+}
+
 
 /*Navbar*/ 
 .navbar_barbershop{
 	background-color: #121619;
 	color: #FFF;
 	margin-bottom: 0;
+}
+.navbar_barbershop a {
+    color: #fff;
 }
 .navbar_barbershop img {
 	max-width: 100px;
@@ -142,7 +165,7 @@
     margin:0;
 }
 
-h2 {
+.jumbotron h2 {
     color: #6C6E70;
     font-family: "Roboto";
     font-size: 2em;
